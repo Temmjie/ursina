@@ -5,8 +5,7 @@ from ursina import *
 from ursina.prefabs.platformer_controller_2d import PlatformerController2d
 
 # window.vsync = False
-window.borderless = False
-app = Ursina()
+app = Ursina(borderless = False)
 window.color = color.light_gray
 camera.orthographic = True
 camera.fov = 20
